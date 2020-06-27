@@ -10,9 +10,19 @@ $heading-color: #FFCA99;
     box-sizing: border-box;
 }
 
+html {
+    background: rgb(241, 241, 241);
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
     color: $main-text-color;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1500px;
 }
 
 // === NAV STYLES === //

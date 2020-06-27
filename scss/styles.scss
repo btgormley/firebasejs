@@ -10,19 +10,9 @@ $heading-color: #FFCA99;
     box-sizing: border-box;
 }
 
-html {
-    background: rgb(241, 241, 241);
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
     color: $main-text-color;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-.wrapper {
-    max-width: 1500px;
 }
 
 // === NAV STYLES === //
@@ -71,7 +61,7 @@ body {
     display: block;
     font-size: 1.5rem;
     text-decoration: none;
-    background: #fff;
+    background: rgb(255, 255, 255);
     width: 100vw;
     color: $main-text-color;
 }
@@ -153,6 +143,7 @@ body {
 .offers-container {
     background-color: $background-color;
     border-top: 6px solid $heading-color;
+    padding: 2rem;
 }
 
 .offers-title {
@@ -177,7 +168,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1.5rem;
+    background: $background-color;
 }
 
 .offers-card {
@@ -201,6 +192,10 @@ body {
 
 .offers-card-title {
     color: $heading-color;
+}
+
+.offers-card-text {
+    text-align: center;
 }
 
 .offers-svg-title {
@@ -391,9 +386,7 @@ body {
 
     .offers-cards-container {
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 3rem;
+        padding: 3rem;
     }
-
-
-
 }
+
